@@ -4,6 +4,7 @@ version = "0.1.0a1"
 description = ""
 authors = ["ZhengYu, Xu <zen-xu@outlook.com>"]
 readme = "README.md"
+packages = [{ include = "recipe" }]
 
 [tool.poetry.dependencies]
 python = "^3.7"
